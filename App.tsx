@@ -735,7 +735,7 @@ export default function App() {
       let feedback = "";
       
       if (lang === 'arm') {
-        feedback += "🔍 **AI Թյութորի վերլուծություն.**\n\n";
+        feedback += "🔍 **Թյութորի վերլուծություն.**\n\n";
         if (draft.includes("yo vivir") || draft.includes("mi vivir") || draft.includes("yo gustar")) {
           feedback += "⚠️ *Սխալ.* Դուք օգտագործել եք անորոշ դերբայ (vivir/gustar): Իսպաներենում բայերը պետք է խոնարհել: Օգտագործեք՝ «Yo vivo» (ես ապրում եմ) կամ «A mí me gusta» (ինձ դուր է գալիս):\n\n";
         }
